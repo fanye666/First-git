@@ -1,0 +1,277 @@
+/* CSS Document */
+@media screen and (min-width: 1500px) and (max-width: 2500px) {
+
+}
+
+/* 平板之类的宽度 1024 以下设备 */
+@media only screen and (min-width: 1000px) and (max-width: 1499px) {
+
+}
+
+/* PC客户端或大屏幕设备: 1028px 至更大 */
+@media only screen and (min-width: 600px) and (max-width: 999px) {
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 599px) {
+
+}
+
+
+
+body{
+	margin:0px;
+	padding:0px;}
+div{
+	border:1px solid rgba(0,0,0,0);}
+a{
+	text-decoration:none;
+	color:#6C6C6C;
+	font-family:黑体;
+	font-size:14px;}
+a:hover{
+	color:#F22E00;}
+
+
+#header{
+	width:100%;
+	height:35px;
+	background-color:#F5F5F5;
+	border:1px solid #EEE;}
+#header_left{
+	width:30%;
+	height:30px;
+	float:left;
+	margin-left:20px;
+	margin-top:5px;
+	}
+.orange{
+	color:#F22E00;}
+#header_right{
+	width:60%;
+	height:30px;
+	float:right;
+	margin-right:30px;
+	margin-top:5px;
+	}
+#header_right ul{
+	list-style:none;
+	margin-top:0px;
+	float:right;}
+#header_right ul li{
+	float:left;
+	margin-left:5px}
+.header_img{
+	float:left;
+	margin-top:4px;}
+
+
+
+
+
+
+#wrapper{
+	width:75%;
+	margin:20px auto;}
+
+
+#top{
+	width:100%;
+}
+#search{
+	width:65%;
+	float:right;
+	margin-right:13%;
+	margin-top:40px;
+	}
+#search div{
+	border:2px solid #F22E00;
+	height:40px;
+	width:80%;
+	float:left;
+	}
+#search div span{
+	color:#6C6C6C;
+	font-family:黑体;
+	font-size:14px;
+	background-color:#F5F5F5;
+	padding-top:11px;
+	padding-bottom:12px;
+	padding-left:15px;
+	padding-right:15px;
+	float:left;
+	margin-top:0px;}
+#search div input{
+	height:95%;
+	border:none;
+	width:80%;}
+#submit{
+	float:left;
+	margin-left:-2px;
+	border:2px solid #F22E00;
+	background-color:#F22E00;
+	height:44px;
+	width:15%;
+	color:#FFF;
+	font-size:18px;}
+#search p{
+	float:left;
+	margin-top:3px;}
+#search p a{
+	margin-left:5px;}
+#search p span{
+	border:1px solid #EEE;
+	margin-left:5px;
+	padding-bottom:2px;
+	padding-left:2px;
+	padding-right:6px;}
+	
+#center{
+	margin-top:20px;}	
+	
+#center_left{
+	float:left;
+	width:15%;
+	height:630px;}
+#center_left div{
+	border:1px solid #EEE;
+	background-color:#F5F5F5;
+	height:100%;
+	}
+
+
+#center_left div table{
+	margin:0 auto;
+	background-color:#F5F5F5;
+	width:95%;
+	height:100%;
+	}
+#center_left div table tr th{
+	background-color:#F40;
+	height:50px;
+	color:#FFF;
+}
+#center_left div table tr td img{
+	float:left;
+	margin-right:15px;
+	margin-top:3px;}
+#center_left div table tr td{
+	border-bottom :1px solid #BBB;
+	font-family:微软雅黑;
+	font-size:16px;
+	color:#494948;
+	height:30px;}
+#center_left div table tr td span{
+	float:right;
+	margin-right:10px;}
+	
+#center_right{
+	float:right;
+	width:84%;
+	}
+.top3{
+	color:#FF4414;
+	font-size:18px;
+	font-family:微软雅黑;
+	font-weight:bold;
+	margin-left:20px;
+	}
+#first{
+	margin-left:50px;}
+.text7{
+	color:#4A4149;
+	font-family:微软雅黑;
+	margin-left:20px;
+	font-size:16px;
+	font-weight:bold;}
+#last{
+	float:right;
+	margin-right:0px;
+	margin-top:10px;}
+#hr{
+	border:2px solid #FF4400;}
+
+#img{
+	float:left;
+	width:65%;}
+.img{
+	float:left;}	
+.B_img{
+	width:75%;
+	height:280px;}
+.S_img{
+	width:25%;
+	height:280px;}
+#bbs{
+	height:560px;
+	width:33%;
+	float:right;
+	}
+#bbs1{
+	width:100%;
+	height:100px;
+	border:1px solid #E0E0E0;}
+#bbs1 p{
+	background-color:#F7F7F7;
+	margin-top:0px;
+	padding:10px;}
+#bbs1 p a{
+	font-size:16px;
+	font-weight:bolder;
+	margin-left:25px;}
+#bbs2{
+	width:100%;
+	height:150px;
+	margin-top:10px;
+	border:1px solid #E0E0E0}
+#face{
+	margin:10px 10px;
+	float:left;}
+.logo{
+	margin-top:-10px;
+	}
+
+#logo2{
+	margin-left:10px;}
+.logo2{
+	margin-left:10px;}
+#bbs3{
+	background-color:#F4F4F4;
+	height:300px;
+	margin-top:0px;}
+#bbs3 div{
+	width:88%;
+	margin:0 auto;}
+.sever{
+	margin-left:10px;}
+
+#footer{
+	width:100%;
+	height:200px;
+	float:left;
+	margin-top:20px;}
+.foot_div{
+	width:24.8%;
+	float:left;}
+.foot_div .zhuti{
+	font-weight:bold;}
+.foot_div p a{
+	font-size:16px;}
+.second{
+	margin-left:10px;
+	} 
+.border{
+	border-right:1px solid #F1F1F1;}
+#zhuti1{
+	color:#FA5603;}
+#zhuti2{
+	color:#A0B959;}
+#zhuti3{
+	color:#E689BE;}	
+#zhuti4{
+	color:#55A1E5;}
+
+
+
+
+
